@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "View.h"
+#import "Miniview.h"
 
 @implementation AppDelegate
 
@@ -14,9 +16,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIScreen *screen = [UIScreen mainScreen];
+    CGRect applicationFrame = screen.applicationFrame;
+    CGRect bounds = screen.bounds;
+    CGRect minibounds = CGRectMake(30.0, 250.0, 700.0, 480.0);
+    
+    view =  [[View alloc] initWithFrame: applicationFrame];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    miniview = [[Miniview alloc] initWithFrame: minibounds];
+    self.window = [[UIWindow alloc] initWithFrame: applicationFrame];
+    
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview: view];
+    [self.window addSubview: miniview];
     [self.window makeKeyAndVisible];
     return YES;
 }

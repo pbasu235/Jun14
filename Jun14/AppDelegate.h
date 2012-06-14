@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class View;
+@class Miniview;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    View *view;
+    Miniview *miniview;
+    UIWindow *_window;
+}
+
 
 @property (strong, nonatomic) UIWindow *window;
 

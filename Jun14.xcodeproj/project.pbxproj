@@ -18,6 +18,8 @@
 		67AF2AA0158A7E280062C6A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AF2A87158A7E280062C6A1 /* Foundation.framework */; };
 		67AF2AA8158A7E280062C6A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67AF2AA6158A7E280062C6A1 /* InfoPlist.strings */; };
 		67AF2AAB158A7E280062C6A1 /* Jun14Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AF2AAA158A7E280062C6A1 /* Jun14Tests.m */; };
+		67AF2ABA158A7EDE0062C6A1 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AF2AB9158A7EDE0062C6A1 /* View.m */; };
+		67AF2ABD158A89D50062C6A1 /* Miniview.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AF2ABC158A89D50062C6A1 /* Miniview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +37,22 @@
 		67AF2A85158A7E280062C6A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67AF2A87158A7E280062C6A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67AF2A89158A7E280062C6A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		67AF2A8D158A7E280062C6A1 /* Jun14-Info.plist */ = {isa = PBXFileReference; path = "Jun14-Info.plist"; sourceTree = "<group>"; };
+		67AF2A8D158A7E280062C6A1 /* Jun14-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jun14-Info.plist"; sourceTree = "<group>"; };
 		67AF2A8F158A7E280062C6A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67AF2A91158A7E280062C6A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67AF2A93158A7E280062C6A1 /* Jun14-Prefix.pch */ = {isa = PBXFileReference; path = "Jun14-Prefix.pch"; sourceTree = "<group>"; };
-		67AF2A94158A7E280062C6A1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		67AF2A93158A7E280062C6A1 /* Jun14-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jun14-Prefix.pch"; sourceTree = "<group>"; };
+		67AF2A94158A7E280062C6A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67AF2A95158A7E280062C6A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		67AF2A9C158A7E280062C6A1 /* Jun14Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jun14Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67AF2A9D158A7E280062C6A1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		67AF2AA5158A7E280062C6A1 /* Jun14Tests-Info.plist */ = {isa = PBXFileReference; path = "Jun14Tests-Info.plist"; sourceTree = "<group>"; };
+		67AF2AA5158A7E280062C6A1 /* Jun14Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jun14Tests-Info.plist"; sourceTree = "<group>"; };
 		67AF2AA7158A7E280062C6A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		67AF2AA9158A7E280062C6A1 /* Jun14Tests.h */ = {isa = PBXFileReference; path = Jun14Tests.h; sourceTree = "<group>"; };
+		67AF2AA9158A7E280062C6A1 /* Jun14Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jun14Tests.h; sourceTree = "<group>"; };
 		67AF2AAA158A7E280062C6A1 /* Jun14Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jun14Tests.m; sourceTree = "<group>"; };
+		67AF2AB8158A7EDE0062C6A1 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		67AF2AB9158A7EDE0062C6A1 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		67AF2ABB158A89D50062C6A1 /* Miniview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Miniview.h; sourceTree = "<group>"; };
+		67AF2ABC158A89D50062C6A1 /* Miniview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Miniview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,10 @@
 			children = (
 				67AF2A94158A7E280062C6A1 /* AppDelegate.h */,
 				67AF2A95158A7E280062C6A1 /* AppDelegate.m */,
+				67AF2ABB158A89D50062C6A1 /* Miniview.h */,
+				67AF2ABC158A89D50062C6A1 /* Miniview.m */,
+				67AF2AB8158A7EDE0062C6A1 /* View.h */,
+				67AF2AB9158A7EDE0062C6A1 /* View.m */,
 				67AF2A8C158A7E280062C6A1 /* Supporting Files */,
 			);
 			path = Jun14;
@@ -251,6 +261,8 @@
 			files = (
 				67AF2A92158A7E280062C6A1 /* main.m in Sources */,
 				67AF2A96158A7E280062C6A1 /* AppDelegate.m in Sources */,
+				67AF2ABA158A7EDE0062C6A1 /* View.m in Sources */,
+				67AF2ABD158A89D50062C6A1 /* Miniview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
